@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common'; // Add this line
 })
 export class AppComponent {
   teamMembers = [
-    { imageUrl: 'image1.jpg', initials: 'AB', role: 'Project Manager' },
+    { imageUrl: 'vi.jfif', initials: 'Inshyn Valerii', role: 'Full Stack .NET Developer' },
     { imageUrl: 'image2.jpg', initials: 'CD', role: 'Developer' },
     { imageUrl: 'image3.jpg', initials: 'EF', role: 'Manager' },
     { imageUrl: 'image4.jpg', initials: 'GH', role: 'Tester' }
