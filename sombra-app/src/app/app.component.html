@@ -1,0 +1,14 @@
+<div class="content-container">
+  <h1 class="page-title">Our Amazing Team</h1>
+  <div class="team-members-container">
+    <div *ngFor="let member of teamMembers" class="team-member">
+      <div class="member-image">
+        <img [src]="getImageUrl(member.imageUrl)" alt="Member Image">
+      </div>
+      <div class="member-details">
+        <p class="initials">{{ member.initials }}</p>
+        <p class="role">{{ member.role }}</p>
+      </div>
+    </div>
+  </div>
+</div>

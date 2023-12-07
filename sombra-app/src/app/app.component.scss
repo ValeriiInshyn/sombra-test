@@ -1,0 +1,54 @@
+.content-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.page-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.team-members-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .member-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .member-details {
+    p {
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .initials {
+      font-size: 1.5em;
+    }
+
+    .role {
+      color: #666;
+      font-size: 0.8em;
+    }
+  }
+}
