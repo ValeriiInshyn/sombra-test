@@ -14,8 +14,8 @@ export class AppComponent {
   teamMembers = [
     { imageUrl: 'nazar-kulish.jpeg', initials: 'Nazar Kulish', role: 'Developer' },
     { imageUrl: 'vi.jfif', initials: 'Inshyn Valerii', role: 'Full Stack .NET Developer' },
-    { imageUrl: 'daria-kyselytsia.jpg', initials: 'Daria Kyselytsia', role: 'Manager' },
-    { imageUrl: 'image4.jpg', initials: 'GH', role: 'Tester' }
+    { imageUrl: 'daria-kyselytsia.JPG', initials: 'Daria Kyselytsia', role: 'Manager' },
+    { imageUrl: 'kolya.png', initials: 'Mykola Mazur', role: 'Quality Assurance' }
   ];
 
   getImageUrl(imageFileName: string): string {
