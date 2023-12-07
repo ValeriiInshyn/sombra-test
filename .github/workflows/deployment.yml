@@ -21,11 +21,9 @@ jobs:
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: 'npm'
-                  
-            - name: Change working directory
-              run: cd sombra-app
 
             - name: Run npm install Command
+              run: cd sombra-app
               run: npm install
 
             - name: Build
