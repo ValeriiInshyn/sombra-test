@@ -23,8 +23,7 @@ jobs:
                   cache: 'npm'
 
             - name: Run npm install Command
-              run: cd sombra-app
-              run: npm install
+              run: cd sombra-app npm install
 
             - name: Build
               run: npm run build
